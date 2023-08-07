@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+</head>
+<body>
+    <form>
+        
+        <label for="Name">Enter your age:</label>
+        <input required type="text" id="Name" placeholder="Enter your full name">
+        <br><br>
+        <label for="Pass">Password</label>
+        <input type="password" id="Pass" placeholder="Enter password">
+        <br><br>
+        <label for="Email">Email</label>
+        <input type="Email" id="Email">
+        <br<<br><br>
+        <label for="color">Enter color</label>
+        <input type="color" id="color">
+        <br><br>
+        <lable>DATE</lable>
+        <input type="datetime-local" min="2023-08-05" max="2023-08-20">
+        <input type="submit">
+        <input type="submit" value="login">
+        <input type="time">
+        <input type="month">
+        <input type="file">
+        <input type="file" multiple accept="image/*"> <!--video/*-->
+        <input type="image">
+
+
+        <input type="radio" id="male" name="gender">
+        <lable for="male">Male</lable>
+        <input type="radio" id="female" name="gender">
+        <lable for="female">Female</lable>
+
+        <br><br>
+        <input type="tel" pattern="[0-9]{10}">
+
+
+        <select>
+            <option value="1">Car</option>
+            <option value="2">Bike</option>
+            <option value="3">BUS</option>
+            <option value="4">Scotey</option>
+        </select> <!--optgroup-->
+
+        <!--fieldset
+        legend
+        -->
+
+        <!--
+            Input types = name,email,password,color
+            for=id (label ka four attribute=id attribute of input)\
+
+            requried (   we dont have to give values  )
+            readonly (             ""                 )
+            disabled (             ""                 )
+        -->
+    </form>
+</body>
+</html>

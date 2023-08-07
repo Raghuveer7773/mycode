@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style>
+        .container{
+            justify-content: center;
+            max-width:2260px;
+            width:100%;
+            display: flex;
+        }
+        body {
+   /* Background pattern from Toptal Subtle Patterns */
+   height: 400px;
+   width: 100%;
+   background-image: url("Images/logbg.jpg");
+   background-size: 2000px 980px;
+}
+.head{
+    color: beige;
+    justify-content: left;
+}
+h1{
+    color: beige;
+
+}
+.personal{
+    size: 50px 30px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="experince">
+        <div class="head">
+            <h1>Registration</h1>
+        <p>Enter your personal details to register.</p>
+        </div>
+    
+    <form>
+        
+        <h2>Registration as?</h2>
+    
+        <input type="Radio" id="Single" name="register">
+        <lable for="Single">Single</lable>
+        <input type="Radio" id="Group" name="register">
+        <lable for="Group">Single</lable>
+        <br>
+        <h4>Registration Fees:INR 3000</h4>
+
+        <div class="personal">
+        <fieldset>Personal Information</fieldset>
+        <input required type="text" id="Name" placeholder="First Name">
+        <input required type="text" id="Name" placeholder="Last Name">
+        <br><br>
+        <input required type="email" id="email" placeholder="Email Address">
+        <input requiredtype="tel" pattern="[0-9]{10}">
+        <br><br>
+        <select required>
+            <option value="1">Select Gender</option>
+            <option value="2">Male</option>
+            <option value="3">Female</option>
+            <option value="4">Other</option>
+        </select> 
+        <input required type="date" placeholder="Date of Birth" max="2005-01-01">
+        <br><br>
+        <input type="text" placeholder="Enter City">
+        <input type="text" placeholder="Enter State">
+        <input type="text" placeholder="Enter Country">
+
+
+        <div class="input-box column-2">
+            <textarea class="input-field textarea-field" id="address1" type="text" name="address" placeholder="Address Line 1*" maxlength="100"></textarea>
+            <div class="alert-rider-mania-form addressvalid" style="display: none;">Enter your Address </div>
+        </div>
+        
+        <div class="input-box column-2">
+            <textarea class="input-field textarea-field" type="text" id="address2" maxlength="100" name="address" placeholder="Address Line 2"></textarea>
+            
+        </div>
+
+        <div class="input-box column-2">
+            <input class="input-field" maxlength="6" name="pincode" placeholder="Pin Code*" id="pin" fdprocessedid="c1fzrr">
+            <div class="alert-rider-mania-form pincodevalid" style="display: none;">Enter your Pin Code</div>
+        </div> 
+
+        <div class="input-box select-box column-2">
+            <select name="t-shirt" class="select-field" id="selectTshirt" fdprocessedid="r996hb">
+                <option value="">Select T-shirt Size</option>
+                
+                    <option value="XS">XS</option>
+                
+                    <option value="S">S</option>
+                
+                    <option value="M">M</option>
+                
+                    <option value="L">L</option>
+                
+                    <option value="XL">XL</option>
+                
+                    <option value="XXL">XXL</option>
+                
+                    <option value="XXXL">XXXL</option>
+                
+            </select>
+            <div class="alert-rider-mania-form Tshirtsizevalid">Select T-shirt Size</div>
+        </div>
+
+        <div class="reg-form">
+            <h3 class="reg-form-heading">Club Information</h3>
+            <div class="input-box club-box">
+                <input class="input-field input-Club" type="text" name="clubName" placeholder="Club Name" id="clubname" fdprocessedid="su6s4e">
+                <div class="alert-rider-mania-form clubvalid">Enter your Club Name</div>
+            </div>
+            
+        
+                
+        </div>
+
+        </div>
+
+    </form>
+</div>
+</div>
+</body>
+</html>
+
+
+
